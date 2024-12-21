@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'font';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+* {
+    font-family: 'font';
+}
+h1 {
+    font-size: 50px;
+    width: fit-content;
+    margin: auto;
+}
+
+h3 {
+    margin: 70px auto 0;
+    width: fit-content;
+}
+.cont {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont a {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(50% - 20px);
+    background-color: #F5EFE7;
+    border-radius: 10px;
+    padding: 40px 0;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.cont a:hover {
+    width: 50%;
+    padding: 80px 0;
+}
+.cont a h4 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.cont a.quiz p {
+    width: 90%;
+}
+i {
+    font-size: 30px;
+}

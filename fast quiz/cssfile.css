@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'font';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+*{
+    font-family: 'font';
+}
+h1 {
+    width: fit-content;
+    margin: 20px auto 100px;
+    font-size: 40px;
+}
+
+label {
+    font-size: 23px;
+}
+
+select {
+    width: 90px;
+    margin-left: 10px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.botton {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 5px 7px;
+    transition: 0.3s;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.botton:hover {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+h2 {
+    width: fit-content;
+    margin:50px auto;
+    font-size: 25px;
+}
+
+input {
+    border: none;
+    width: 50px;
+    border-bottom: 1px solid;
+    outline: none;
+    text-align: center;
+}
+.contanier {
+    width: fit-content;
+    display: flex;
+    margin:30px auto;
+}
+.contanier div {
+    margin-right: 30px;
+    font-size: 40px;
+}
+.contanier input {
+    font-size: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.btmContainer {
+    width: fit-content;
+    margin: 50px auto;
+    display: flex;
+}
+.btn {
+    width: 70px;
+    height: 20px;
+    margin-right: 50px;
+    padding: 5px 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn:hover {
+    padding: 5px 5px;
+}
+i {
+    transition: 0.3s;
+    font-size: 50px;
+}

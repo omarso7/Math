@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'font';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+*{
+    font-family: 'font';
+}
+h1 {
+    margin: auto;
+    width: fit-content;
+    font-size: 50px;
+    margin-bottom: 170px;
+}
+
+input {
+    border: none;
+    width: 50px;
+    border-bottom: 1px solid;
+    outline: none;
+    text-align: center;
+}
+.contanier {
+    width: fit-content;
+    display: flex;
+    margin:30px auto;
+}
+.contanier div {
+    margin-right: 30px;
+    font-size: 40px;
+}
+.contanier input {
+    font-size: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.btmContainer {
+    width: fit-content;
+    margin: 50px auto;
+    display: flex;
+}
+.btn {
+    width: 70px;
+    height: 20px;
+    margin-right: 50px;
+    padding: 5px 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn:hover {
+    padding: 5px 5px;
+}
+i {
+    transition: 0.3s;
+    font-size: 50px;
+}
