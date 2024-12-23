@@ -9,6 +9,7 @@ let sumInput = document.createElement('input');
 let btn = document.createElement('div');
 btn.innerText = 'Next';
 btn.className = 'btn';
+sumInput.setAttribute("autofocus", "autofocus");
 sumInput.setAttribute('type', 'number');
 contanier.className = 'contanier';
 bottomContanier.className = 'btmContainer';
@@ -19,6 +20,11 @@ document.body.appendChild(bottomContanier);
 bottomContanier.appendChild(btn);
 calcNum.appendChild(calcNumText);
 let i = document.createElement("i");
+document.body.addEventListener('keyup', function (event) {
+    if (event.keyCode == 13) {
+        btn.click();
+    }
+})
 btn.onclick = function () {
     if (variable == false) {
         // if true
@@ -35,6 +41,7 @@ btn.onclick = function () {
             document.body.appendChild(flaseAnswar);
         }
         variable = true;
+        sumInput.setAttribute("disabled", "disabled");
     }
     else {
         location.reload();

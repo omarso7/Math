@@ -32,6 +32,8 @@ h3 {
     transition: 0.3s;
     text-decoration: none;
     color: black;
+    box-sizing: border-box;
+    position: relative;
 }
 .cont a:hover {
     width: 50%;
@@ -51,3 +53,24 @@ p {
 i {
     font-size: 30px;
 }
+a.quiz {
+    /* opacity: 0.8; */
+    background-color: rgba(245, 239, 231, 0.5);
+    z-index: -2;
+}
+.cont a.quiz::after {
+    content: "it's not available now";
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #F5EFE7;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
